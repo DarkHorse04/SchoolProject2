@@ -1,0 +1,185 @@
+.top_navi{
+    display: flex;
+    clear: both;
+    
+}
+
+#footer_logo{
+    clear: both;
+    float: left;
+    margin: auto;
+    width: 90%;
+}
+.center img{
+    width: 50%;
+    height: auto;
+}
+.top_navi.center{
+    margin-left: 40%;
+
+}
+
+
+.top_navi a{
+    text-align: center;
+    float: left;
+    color: #9b450c;
+    font-size:larger;
+    padding: 14px 14px 14px;
+    border-radius: 10px 10px 10px 10px;
+}
+/*top navigation ask: div.class ??*/
+.top_navi a:hover{
+    background-color:rgb(70, 21, 21);
+    color: rgb(126, 43, 43);
+}
+
+.top_navi a.active{
+    background-color: rgb(19, 7, 7);
+    
+}
+
+
+/*mid navigation
+not working why not with text.
+*/
+.scroll {
+    background-color: #FEDBB7;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;    
+    overflow: auto;
+
+  }
+
+
+  .scroll a{
+      align-items:center;
+  }
+.mouse a:hover{
+    transform: sclale(1.1);
+    
+}
+.accordion{
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+
+}
+.panel {
+    padding: 0 18px;
+    background-color:#fedbb7;
+    max-height: 0;
+    text-align: center;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+
+
+
+/* main stuff*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body, html {
+  height: 110%;
+  margin: 0;
+  font: 75%; Verdana, sans-serif;  
+  background-image: url(foto/burger1.jpeg);
+  transform: translate(-50%, -50%;)
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  postion: relative;
+  background-repeat: no-repeat; 
+}
+main{}
+
+/*footer stuff */
+
+
+footer{
+    margin-top: 120px;
+    
+}
+
+
+.under_navi{
+    float: flex;
+    
+}
+
+.fonts{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: white;
+    font-size:medium;
+}
+
+.call_action p{
+    text-align: center;
+
+}
+
+.call_action button{
+    text-align:center;}
+
+/* block?*/
+h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 65px;
+    clear:both;
+    margin-left:30%;
+}
+
+button{
+
+    margin-top: 50px;
+    border: none;
+    background-color: rgb(100, 38, 38);
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0.2), 0 6px 20px 0 rgba(0,0,0.19)
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+
+}
+li{
+    margin: 10px;
+    flex-grow: 1;
+
+}
+li a{
+    margin-left:40% ;
+    background-color:cornsilk;
+
+
+}
+
+
+h2{
+    text-align: center;
+    clear: both;
+    font-size: 32px;
+    color:darkred;
+
+
+
+}
+
